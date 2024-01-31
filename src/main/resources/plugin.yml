@@ -1,0 +1,10 @@
+name: WastedSCAddon
+version: 1.0
+main: com.vinola.WastedSCA
+author: Vinola
+description: Addon de coin para WasteDSC [SimpleClans]
+softdepend: [SimpleClans, PlaceholderAPI]
+commands:
+  cb:
+    description: Comando para verificar os pontos de seu clã
+    usage: /cb ver

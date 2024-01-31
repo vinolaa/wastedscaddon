@@ -1,0 +1,30 @@
+MySql:
+  url: "jdbc:mysql://localhost:3306/wastedscaddon"
+  username: "root"
+  password: ""
+
+prefix: "&a[WastedSC]"
+
+
+# PLACEHOLDERS PARA: ABATE/MORTE
+# %killer% = Nome do jogador que matou
+# %victim% = Nome do jogador que morreu
+# %killercname% = Nome do clã do jogador que matou
+# %victimcname% = Nome do clã do jogador que morreu
+# %killerctag% = Prefixo do clã do jogador que matou
+# %victimctag% = Prefixo do clã do jogador que morreu
+# %killercpontos% = Pontos do clã do jogador que matou
+# %victimcpontos% = Pontos do clã do jogador que morreu
+
+# PLACEHOLDERS PARA: USO-CORRETO/APENAS-JOGADORES/SEM-CLA
+# NENHUM
+
+#PLACEHOLDERS PARA: CB-VER
+# %pontos% = Pontos do clã do jogador
+mensagens:
+  abate: "&fVocê matou o jogador &a%victim% &fdo clã &a%victimctag%&f."
+  morte: "&fVocê morreu para o jogador &a%killer% &fdo clã &a%killerctag%&f."
+  uso-correto: "&fUso correto: &a/cb ver"
+  apenas-jogadores: "&fApenas jogadores podem executar este comando."
+  sem-cla: "&fVocê não está em nenhum clã."
+  cb-ver: "&fSeu clã possui &a%pontos%&f pontos."
